@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rebeccapurple;
+}
+p{
+    padding-right:10px ;
+    padding-right:10px ;
+    text-align: center;
+    font-size:20px ;
+    font-family: "Microsoft Himalaya";
+    color: lightcyan;
+}
+table, tr, th, td{
+    border: 2px solid greenyellow;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th {
+    background: azure;
+    height: 80px;
+    font-size: 22px;
+    font-family: "Lucida Sans Typewriter";
+    color: teal;
+}
+tr{
+    height: 40px;
+    font-family:"Lucida Sans Typewriter";
+    font-size:18px ;
+    text-align:center ;
+
+}
+tr:hover{
+    background: lightseagreen;
+
+}

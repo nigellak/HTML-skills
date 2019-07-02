@@ -62,6 +62,7 @@ tr{
 }
 tr:hover{
     background: lightblue;
+
 }
 tr:nth-child(odd){
     background: mistyrose;
