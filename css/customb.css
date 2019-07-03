@@ -67,3 +67,6 @@ tr:hover{
 tr:nth-child(odd){
     background: mistyrose;
 }
+td{
+    font-family: Tahoma ;
+}

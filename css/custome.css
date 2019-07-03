@@ -1,0 +1,78 @@
+.footer{
+    background: blue;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: gainsboro;
+    text-align: center;
+}
+p{
+    font-family: "Eras Medium ITC";
+    font-size:18px ;
+    color: darkslategray;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*.image{*/
+/*    padding-left: 10px;*/
+/*    padding-right: 10px;*/
+/*    padding-top: 20px;*/
+/*}*/
+ul {
+    list-style-type: none;
+    /*gets rid of bullets*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+
+}
+li {
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+/*li a {*/
+/*    display: block;*/
+/*    padding: 8px;*/
+/*    background-color: #dddddd;*/
+/*}*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Bookman Old Style";
+    font-size:18px ;
+}
+li a:hover {
+    background-color: #111;
+}
+.active{
+    background: cadetblue;
+}
+li{
+    border-right: 1px solid midnightblue;
+}
+.image{
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+}
+.hovah{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

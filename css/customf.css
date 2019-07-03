@@ -1,0 +1,99 @@
+.nk{
+    /*position: fixed;*/
+    top: 0;
+    position: sticky;
+    /*bottom: 0;*/
+    width: 100%;
+    background-color: lightcyan;
+    text-align:center;
+    height: 60px;
+
+}
+.logo{
+    align-items: normal;
+    justify-content: center;
+    display: flex;
+}
+p{
+    font-family: "Script MT Bold";
+    text-align:justify;
+    color:black;
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: snow;
+}
+.para1{
+    display: flex;
+}
+/*.end{*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+
+/*    background-color:deepskyblue;*/
+/*    text-align: center;*/
+/*    justify-content: center;*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 50%;*/
+/*    !*padding: 10px;*!*/
+/*    color: gainsboro;*/
+
+
+/*}*/
+/*.highlights{*/
+/*    list-style-type: none;*/
+/*    !*gets rid of bullets*!*/
+/*    !*margin: 10px;*!*/
+/*    padding: 20px;*/
+/*    overflow: hidden;*/
+
+/*}*/
+
+.end{
+    width: 100%;
+    height: 80px;
+    /*padding: 10px;*/
+    text-align: center;
+    color: darkgrey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*width: 60px;*/
+    /*border-right: 2px solid mintcream;*/
+    /*background-color: deepskyblue;*/
+    width: 100%;
+}
+li {
+    /*display: inline;*/
+    float:left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    /*background-color:deepskyblue;*/
+}
+li a {
+    display: block;
+    color: gainsboro;
+    text-align:justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:deepskyblue;
+}
+.active{
+
+}
