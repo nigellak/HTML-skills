@@ -78,34 +78,34 @@ input[type = 'submit']:hover{
 /*    color: white;*/
 /*}*/
 
-/*.split {*/
-/*    height: 100%;*/
-/*    width: 50%;*/
-/*    position: fixed;*/
-/*    z-index: 1;*/
-/*    top: 0;*/
-/*    overflow-x: hidden;*/
-/*    padding-top: 20px;*/
-/*}*/
+.split {
+    height: 70%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 
-/*.left {*/
-/*    left: 0;*/
-/*    !*background-color: #111;*!*/
-/*}*/
+.left {
+    left: 0;
+    /*background-color: #111;*/
+}
 
 /*.right {*/
 /*    right: 0;*/
 /*    !*background-color: red;*!*/
 /*}*/
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align:justify;
-    /*color: navy;*/
-}
+/*.centered {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align:justify;*/
+/*    !*color: navy;*!*/
+/*}*/
 
 /*.centered img {*/
 /*    width: 150px;*/
@@ -113,7 +113,7 @@ input[type = 'submit']:hover{
 /*}*/
 h3, h4{
     /*color:navy;*/
-    text-align: justify;
+    text-align: center;
     font-family:  "Script MT Bold";
 }
 
